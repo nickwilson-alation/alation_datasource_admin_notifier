@@ -1,8 +1,6 @@
 import argparse
 import os
 import requests
-import smtplib
-from email.message import EmailMessage
 
 def fetch_all_datasources(base_url, headers):
     url = f'https://{base_url}/integration/v2/datasource/'
